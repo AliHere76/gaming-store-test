@@ -101,8 +101,8 @@ class GamingEcommerceTests(unittest.TestCase):
 
     def test_application_running_on_server(self):
         self.driver.get(self.BASE_URL)
-        self.wait.until(EC.url_contains('54.193.129.133'))
-        self.assertIn('54.193.129.133', self.driver.current_url)
+        self.wait.until(EC.url_contains('100.26.107.103'))
+        self.assertIn('100.26.107.103', self.driver.current_url)
 
     def test_footer_presence_on_home_page(self):
         self.driver.get(self.BASE_URL)
